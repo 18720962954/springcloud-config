@@ -13,7 +13,7 @@ spring:
 eureka:
   cliet:
     service-url:
-      defaultZone: http://eureka01.com:1001/eureka/
+      defaultZone: http://localhost:1001/eureka/
      
 ---
 server:
@@ -25,4 +25,4 @@ spring:
 eureka:
   cliet:
     service-url:
-      defaultZone: http://eureka01.com:1001/eureka/
+      defaultZone: http://localhost:1001/eureka/
